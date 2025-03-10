@@ -1,0 +1,12 @@
+kaleidoscope
+demo/kaleidoscope
+
+particles
+demo/particles
+
+java Sierpinski
+demo/sierpinski
+
+phyllotaxis
+demo/phyllotaxis
+

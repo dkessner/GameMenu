@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Marlborough Admissions Game</title>
+
+    <style>
+
+    @font-face {
+        font-family: benton;
+        src: url("data/Benton Sans Bold.otf");
+        /*src: url("data/Miller Text Italic.otf");*/
+    }
+
+    body {
+        /*background-color: #7d6b9b; /* light purple */
+        background-color: #260859; /* purple */
+        color: #fff;
+        font-family: benton;
+        font-size: 20px;
+    }
+
+    p {
+        margin: 50px;
+    }
+
+    a {
+        color: #ffd200; /* yellow */
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration-color: #ffd200; /* yellow */
+        text-decoration: underline;
+    }
+
+    </style>
+
+</head>
+
+
+<body>
+
+<br/>
+<br/>
+
+
+<p>
+Congratulations new Mustang!
+</p>
+
+<p>
+Click on the image below to join Marlborough's mascot on a <u>student-created</u>
+adventure through Marlborough.
+</p>
+
+<p>
+For optimal user experience, we recommend you play on a computer with a
+keyboard.
+</p>
+
+<p>
+Welcome!
+</p>
+
+<p>
+<script src="processing.min.js"></script>
+<canvas data-processing-sources="AdmissionsGame.pde Author.pde Block.pde Book.pde Bullet.pde CenterSection.pde DoorClass.pde EnglishGame.pde EscapeButton.pde MainMenu.pde Minigame.pde Minigame2.pde Player.pde Robot.pde RobotGame.pde ScienceGame.pde backpack.pde cei_minigame.pde dancegame.pde food.pde initialize_books.pde initialize_food.pde robot_game.pde"></canvas>
+</p>
+
+<script src="buzz.min.js" type="text/javascript"></script>
+
+
+<script type="text/javascript">
+  var bellSound = new buzz.sound( "data/bells", { formats: [ "wav"] });
+  var punchSound = new buzz.sound( "data/Punch", { formats: [ "mp3"] });
+
+  var bound = false;
+
+  function bindJavascript() {
+    var pjs = Processing.getInstanceById("AdmissionsGame");
+    if(pjs != null) {
+      pjs.bindJavascript(this);
+      bound = true;
+    }
+    if(!bound) setTimeout(bindJavascript, 250);
+  }
+
+  bindJavascript();
+
+  function playBells() {
+    bellSound.load();
+    bellSound.play();
+  }
+
+  function playPunch() {
+    punchSound.load();
+    punchSound.play();
+  }
+
+  function soundSetup() {
+  }
+
+</script>
+
+<p>
+This game was created by Marlborough students enrolled in Honors Computer
+Science Projects.  We'd love your feedback!
+</p>
+
+<p>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScsfH9apNA8LKSI7-_Vfun2pjTMLRsOZ3iQQLaS0yay_cUkmQ/viewform" target="_blank">
+Click here</a>
+to share what you liked best, which one was most challenging, and any ideas for
+future video games. 
+</p>
+
+<p>We hope you'll join us next year!</p>
+
+</body>
+
+</html>
+

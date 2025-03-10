@@ -1,0 +1,4 @@
+title Duel with Voldemort
+screenshot screenshot.png
+author Issy Arroyo
+date Fall 2016

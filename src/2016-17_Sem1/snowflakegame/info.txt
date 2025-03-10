@@ -1,0 +1,4 @@
+title Snowflake Game
+screenshot screenshot.png
+author Allison Muhlheim & Anna Corbett
+date Fall 2016

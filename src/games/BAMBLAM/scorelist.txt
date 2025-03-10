@@ -1,0 +1,10 @@
+MR WITMAN ,10
+AAA       ,9
+BBB       ,8
+CCC       ,7
+DDD       ,6
+EEE       ,5
+FFF       ,4
+SSS       ,4
+TTT       ,4
+GGG       ,3

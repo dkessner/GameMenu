@@ -1,0 +1,4 @@
+title Video Projection
+screenshot screenshot.png
+author Catherine Dickerman
+date Honors CS Projects / 2018-19

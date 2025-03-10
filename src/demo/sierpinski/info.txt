@@ -1,0 +1,3 @@
+title Sierpinski
+screenshot screenshot.png
+author Dr. Kessner

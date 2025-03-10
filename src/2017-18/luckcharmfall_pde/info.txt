@@ -1,0 +1,4 @@
+title Lucky Charm Fall
+screenshot screenshot.png
+author Bridget Masih
+date Fall 2017

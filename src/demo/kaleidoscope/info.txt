@@ -1,0 +1,3 @@
+title Kaleidoscope
+screenshot screenshot.png
+author Dr. Kessner

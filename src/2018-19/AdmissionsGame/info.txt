@@ -1,0 +1,4 @@
+title Admissions Video Game
+screenshot screenshot.png
+author Kendall Cooney, Allison Muhlheim, Carlee Launsbach, Kyra Kraft
+date Honors CS Projects / 2018-19

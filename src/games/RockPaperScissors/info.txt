@@ -1,0 +1,4 @@
+title Rock Paper Scissors
+screenshot screenshot.png
+author Dr. Kessner
+date Summer 2016

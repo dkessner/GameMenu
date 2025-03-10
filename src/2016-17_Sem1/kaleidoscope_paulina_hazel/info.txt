@@ -1,0 +1,4 @@
+title Kaleidoscope
+screenshot screenshot.png
+author Paulina Cardenas & Hazel Berger
+date Fall 2016

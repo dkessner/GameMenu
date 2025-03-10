@@ -1,0 +1,221 @@
+Abyssinica SIL
+Asana Math
+Bitstream Charter
+Bitstream Charter Bold
+Bitstream Charter Bold Italic
+Bitstream Charter Italic
+Caladea
+Century Schoolbook L Bold
+Century Schoolbook L Bold Italic
+Century Schoolbook L Italic
+Century Schoolbook L Roman
+DejaVu Sans
+DejaVu Sans Bold
+DejaVu Sans Bold Oblique
+DejaVu Sans Condensed
+DejaVu Sans Condensed Bold
+DejaVu Sans Condensed Bold Oblique
+DejaVu Sans Condensed Oblique
+DejaVu Sans ExtraLight
+DejaVu Sans Mono
+DejaVu Sans Mono Bold
+DejaVu Sans Mono Bold Oblique
+DejaVu Sans Mono Oblique
+DejaVu Sans Oblique
+DejaVu Serif
+DejaVu Serif Bold
+DejaVu Serif Bold Italic
+DejaVu Serif Condensed
+DejaVu Serif Condensed Bold
+DejaVu Serif Condensed Bold Italic
+DejaVu Serif Condensed Italic
+DejaVu Serif Italic
+Dialog.bold
+Dialog.bolditalic
+Dialog.italic
+Dialog.plain
+DialogInput.bold
+DialogInput.bolditalic
+DialogInput.italic
+DialogInput.plain
+FreeMono
+FreeMono Bold
+FreeMono Bold Oblique
+FreeMono Oblique
+FreeSans
+FreeSans Bold
+FreeSans Bold Oblique
+FreeSans Oblique
+FreeSerif
+FreeSerif Bold
+FreeSerif Bold Italic
+FreeSerif Italic
+Garuda
+Garuda Bold
+Garuda Bold Oblique
+Garuda Oblique
+Kinnari
+Kinnari Bold
+Kinnari Bold Italic
+Kinnari Bold Oblique
+Kinnari Italic
+Kinnari Oblique
+Laksaman
+Laksaman Bold
+Laksaman Bold Italic
+Laksaman Italic
+LatinModernMath-Regular
+Lato Black
+Lato Black Italic
+Lato Bold
+Lato Bold Italic
+Lato Hairline
+Lato Hairline Italic
+Lato Heavy
+Lato Heavy Italic
+Lato Italic
+Lato Light
+Lato Light Italic
+Lato Medium
+Lato Medium Italic
+Lato Regular
+Lato Semibold
+Lato Semibold Italic
+Lato Thin
+Lato Thin Italic
+Liberation Mono
+Liberation Mono Bold
+Liberation Mono Bold Italic
+Liberation Mono Italic
+Liberation Sans
+Liberation Sans Bold
+Liberation Sans Bold Italic
+Liberation Sans Italic
+Liberation Sans Narrow
+Liberation Sans Narrow Bold
+Liberation Sans Narrow Bold Italic
+Liberation Sans Narrow Italic
+Liberation Serif
+Liberation Serif Bold
+Liberation Serif Bold Italic
+Liberation Serif Italic
+Loma
+Loma Bold
+Loma Bold Oblique
+Loma Oblique
+Monospaced.bold
+Monospaced.bolditalic
+Monospaced.italic
+Monospaced.plain
+NanumBarunGothic
+NanumBarunGothic Bold
+NanumGothic
+NanumGothicBold
+NanumMyeongjo
+NanumMyeongjoBold
+Nimbus Mono L Bold
+Nimbus Mono L Bold Oblique
+Nimbus Mono L Regular
+Nimbus Mono L Regular Oblique
+Nimbus Roman No9 L Medium
+Nimbus Roman No9 L Medium Italic
+Nimbus Roman No9 L Regular
+Nimbus Roman No9 L Regular Italic
+Nimbus Sans L Bold
+Nimbus Sans L Bold Condensed
+Nimbus Sans L Bold Condensed Italic
+Nimbus Sans L Bold Italic
+Nimbus Sans L Regular
+Nimbus Sans L Regular Condensed
+Nimbus Sans L Regular Condensed Italic
+Nimbus Sans L Regular Italic
+Norasi
+Norasi Bold
+Norasi Bold Italic
+Norasi Bold Oblique
+Norasi Italic
+Norasi Oblique
+Padauk
+Padauk Bold
+Padauk Book
+Padauk Book Bold
+Phetsarath OT
+Purisa
+Purisa Bold
+Purisa Bold Oblique
+Purisa Oblique
+STIX-Bold
+STIX-BoldItalic
+STIX-Italic
+STIX-Regular
+STIXGeneral-Bold
+STIXGeneral-BoldItalic
+STIXGeneral-Italic
+STIXGeneral-Regular
+SansSerif.bold
+SansSerif.bolditalic
+SansSerif.italic
+SansSerif.plain
+Sawasdee
+Sawasdee Bold
+Sawasdee Bold Oblique
+Sawasdee Oblique
+Serif.bold
+Serif.bolditalic
+Serif.italic
+Serif.plain
+Symbola
+TakaoPGothic
+Tibetan_Machine_Uni
+Tlwg Mono
+Tlwg Mono Bold
+Tlwg Mono Bold Oblique
+Tlwg Mono Oblique
+Tlwg Typewriter
+Tlwg Typewriter Bold
+Tlwg Typewriter Bold Oblique
+Tlwg Typewriter Oblique
+Tlwg Typist
+Tlwg Typist Bold
+Tlwg Typist Bold Oblique
+Tlwg Typist Oblique
+Tlwg Typo
+Tlwg Typo Bold
+Tlwg Typo Bold Oblique
+Tlwg Typo Oblique
+URW Bookman L Demi Bold
+URW Bookman L Demi Bold Italic
+URW Bookman L Light
+URW Bookman L Light Italic
+URW Chancery L Medium Italic
+URW Gothic L Book
+URW Gothic L Book Oblique
+URW Gothic L Demi
+URW Gothic L Demi Oblique
+URW Palladio L Bold
+URW Palladio L Bold Italic
+URW Palladio L Italic
+URW Palladio L Roman
+Ubuntu
+Ubuntu Bold
+Ubuntu Bold Italic
+Ubuntu Condensed
+Ubuntu Italic
+Ubuntu Light
+Ubuntu Light Italic
+Ubuntu Medium
+Ubuntu Medium Italic
+Ubuntu Mono
+Ubuntu Mono Bold
+Ubuntu Mono Bold Italic
+Ubuntu Mono Italic
+Umpush
+Umpush Bold
+Umpush Bold Oblique
+Umpush Light
+Umpush Light Oblique
+Umpush Oblique
+Waree
+Waree Bold
+Waree Bold Oblique
+Waree Oblique

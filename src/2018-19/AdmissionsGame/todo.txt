@@ -1,0 +1,13 @@
+TODO:
+
+- Maze game:
+    - add timer?
+    - mobile controls
+
+- CEI game
+    - mobile controls
+
+- bell sounds?
+
+- remove all console output?
+

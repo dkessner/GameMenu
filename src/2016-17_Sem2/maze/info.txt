@@ -1,0 +1,4 @@
+title maze
+screenshot screenshot.png
+author Nina Rhone and Allison Muhlheim
+date Spring 2017

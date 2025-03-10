@@ -1,0 +1,4 @@
+title Zippy Snail
+screenshot screenshot.png
+author Sydney Brown and Sofia Simon Trench
+date Spring 2017

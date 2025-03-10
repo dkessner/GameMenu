@@ -1,0 +1,3 @@
+title Particle Generator
+screenshot screenshot.png
+author Dr. Kessner

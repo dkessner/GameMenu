@@ -1,0 +1,4 @@
+title Fractals
+screenshot screenshot.png
+author Emma Holt
+date Spring 2017

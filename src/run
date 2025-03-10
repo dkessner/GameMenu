@@ -1,0 +1,27 @@
+#!/bin/bash
+#
+# run
+#
+# Helper script to set CLASSPATH and run Java from this directory.
+#
+# Darren Kessner
+# Marlborough School
+#
+
+realpath() {
+    # realpath replacement that works on both OSX and Linux
+    [[ $1 = /* ]] && echo "$1" || echo "$PWD/${1#./}"
+}
+
+bindir=$(dirname $(realpath "$0"))
+echo bindir: $bindir
+
+export CLASSPATH=".:$bindir/lib/*"
+echo CLASSPATH: $CLASSPATH
+
+export LD_LIBRARY_PATH=$bindir/lib
+echo LD_LIBRARY_PATH: $LD_LIBRARY_PATH
+
+pushd $bindir
+java VideoGameMenu
+
