@@ -23,7 +23,6 @@ platform = $(shell uname)
 
 all: \
     $(logfile) \
-    forceRecompile \
     bin/VideoGameMenu.class \
     bin/demo/info.txt \
     bin/demo/sierpinski/Sierpinski.class \
@@ -121,7 +120,6 @@ all: \
     bin/2018-19/danceprojection/info.txt \
     bin/2018-19/AdmissionsGame/AdmissionsGame.done \
     bin/2018-19/AdmissionsGame/info.txt \
-    bin/lib \
     bin/images \
     bin/fonts.txt
 	
@@ -131,7 +129,7 @@ all: \
 bin/%.done: src/%.pde
 	@echo Compiling $< | tee -a $(logfile)
 	@unset CLASSPATH && processing-java --sketch=$(addprefix $(fullPath), $(dir $<)) \
-	    --output=$(addprefix $(fullPath), $(dir $@)) --force --export >> $(logfile)
+	    --output=$(addprefix $(fullPath), $(dir $@)) --force --no-java --export >> $(logfile)
 	@touch $@
 ifeq ($(platform), Darwin)
 	@echo "Copying data directory (for OSX only)"
@@ -147,7 +145,7 @@ forceRecompile:
 
 bin/%.class: src/%.java
 	@echo Compiling $< | tee -a $(logfile)
-	@javac -cp $(addsuffix ":lib/*", $(dir $<)) $< >> $(logfile)
+	cd $(dir $<) && javac *.java 
 	@mkdir -p $(dir $@)
 	@mv $(dir $<)/*.class $(dir $@)
 	@if [ -d $(dir $<)/data ]; then cp -r $(dir $<)/data $(dir $@); fi
@@ -160,12 +158,6 @@ bin/%.txt: src/%.txt
 	@mkdir -p $(dir $@)
 	@cp $< $@
 
-
-# 3rd party libs
-
-bin/lib: lib
-	@echo Copying lib to bin.
-	@cp -r lib bin
 
 # images
 
