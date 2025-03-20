@@ -16,12 +16,6 @@ realpath() {
 bindir=$(dirname $(realpath "$0"))
 echo bindir: $bindir
 
-export CLASSPATH=".:$bindir/lib/*"
-echo CLASSPATH: $CLASSPATH
-
-export LD_LIBRARY_PATH=$bindir/lib
-echo LD_LIBRARY_PATH: $LD_LIBRARY_PATH
-
 pushd $bindir
 java VideoGameMenu
 
