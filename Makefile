@@ -128,8 +128,11 @@ all: \
 
 bin/%.done: src/%.pde
 	@echo Compiling $< | tee -a $(logfile)
+ifneq ($(platform), Darwin)
+	@NOJAVA = --no-java
+endif
 	@unset CLASSPATH && processing-java --sketch=$(addprefix $(fullPath), $(dir $<)) \
-	    --output=$(addprefix $(fullPath), $(dir $@)) --force --no-java --export >> $(logfile)
+	    --output=$(addprefix $(fullPath), $(dir $@)) --force $(NOJAVA) --export >> $(logfile)
 	@touch $@
 ifeq ($(platform), Darwin)
 	@echo "Copying data directory (for OSX only)"
