@@ -126,11 +126,12 @@ all: \
 
 # Processing program rule
 
+ifeq ("$(platform)", "Linux")
+NOJAVA = --no-java
+endif
+
 bin/%.done: src/%.pde
 	@echo Compiling $< | tee -a $(logfile)
-ifneq ($(platform), Darwin)
-	@NOJAVA = --no-java
-endif
 	@unset CLASSPATH && processing-java --sketch=$(addprefix $(fullPath), $(dir $<)) \
 	    --output=$(addprefix $(fullPath), $(dir $@)) --force $(NOJAVA) --export >> $(logfile)
 	@touch $@
