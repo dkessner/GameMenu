@@ -1,0 +1,4 @@
+title Flipside
+screenshot screenshot.png
+author Eloise Shin
+date Honors CS Projects / 2024-25

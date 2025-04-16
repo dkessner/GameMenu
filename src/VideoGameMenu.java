@@ -26,6 +26,7 @@ public class VideoGameMenu extends PApplet
         println("screen size:", width, height);
 
         programs = new ArrayList<ProgramGroup>();
+        programs.add(new ProgramGroup(this, "2024-25", "2024-25"));
         programs.add(new ProgramGroup(this, "2018-19", "2018-19"));
         programs.add(new ProgramGroup(this, "2017-18", "2017-18"));
         programs.add(new ProgramGroup(this, "2017\nSummer", "2017_Summer"));

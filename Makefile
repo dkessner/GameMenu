@@ -120,6 +120,9 @@ all: \
     bin/2018-19/danceprojection/info.txt \
     bin/2018-19/AdmissionsGame/AdmissionsGame.done \
     bin/2018-19/AdmissionsGame/info.txt \
+    bin/2024-25/info.txt \
+    bin/2024-25/eloise_flipside/eloise_flipside.done \
+    bin/2024-25/eloise_flipside/info.txt \
     bin/images \
     bin/fonts.txt
 	
