@@ -1,5 +1,5 @@
 import processing.sound.*;
-import processing.video.*;
+//import processing.video.*;
 
 String filename_high_scores = "";
 
@@ -22,7 +22,7 @@ SoundFile death;
 SoundFile flip;
 SoundFile music;
 
-Movie one;
+//Movie one;
 
 void setup() {
 
@@ -32,9 +32,11 @@ void setup() {
   score = 0;
   selected = -1;
   
+  /*
   one = new Movie(this, "1.mp4");
   one.loop();
   one.play();
+  */
   
   jump = new SoundFile(this, "jump.wav");
   click = new SoundFile(this, "click.wav");
@@ -313,7 +315,7 @@ void runTutorial(){
   text("WELCOME TO FLIP SIDE!", width/2, height/10);
   
   imageMode(CENTER);
-  image(one, width/2,height/2,width/3, width/3);
+  //image(one, width/2,height/2,width/3, width/3);
   
   textSize(height/30);
   
@@ -332,6 +334,8 @@ void runTutorial(){
   text("RETURN HOME", width/2, height - height/10);
 }
 
+/*
 void movieEvent(Movie m) {
   m.read();
 }
+*/
