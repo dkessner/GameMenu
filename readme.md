@@ -2,20 +2,13 @@
 Video Game Menu
 ---------------
 
-TODO:
+This is the software repository for a custom built video game cabinet.
 
-- clean up demos and make interactive
+The menu and software are built with Java and Processing.
 
-- 3D menu idea:  prism, with scrolling faces (selected item in center)
+The project was sponsored by the Marlborough School Professional
+Growth Committee in Summer 2016.
 
-- random animations?
 
-
-Table test:
-
-Name   | Color | Number
--------|-------|-------
-Darren | Orange|  23
-Emma   | Blue  |  16
-
+[M3 2017 meeting slides](https://dkessner.github.io/VideoGameMenu/slides_M3_2017)
 
