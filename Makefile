@@ -123,6 +123,8 @@ all: \
     bin/2024-25/info.txt \
     bin/2024-25/eloise_flipside/eloise_flipside.done \
     bin/2024-25/eloise_flipside/info.txt \
+    bin/2024-25/emma_draw_a_mustache/emma_draw_a_mustache.done \
+    bin/2024-25/emma_draw_a_mustache/info.txt \
     bin/images \
     bin/fonts.txt
 	

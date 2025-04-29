@@ -1,0 +1,4 @@
+title Draw A Mustache
+screenshot screenshot.png
+author Emma Melville
+date Honors CS Projects / 2024-25
