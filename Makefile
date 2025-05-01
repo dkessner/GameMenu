@@ -145,6 +145,8 @@ all: \
     bin/2024-25/Raining_Tacos_Sadie_Stiehm/info.txt \
     bin/2024-25/Starships_Kira_Chang/Starships_Kira_Chang.done \
     bin/2024-25/Starships_Kira_Chang/info.txt \
+    bin/2024-25/Summit_Audrey_Nishida/Summit_Audrey_Nishida.done \
+    bin/2024-25/Summit_Audrey_Nishida/info.txt \
     bin/images \
     bin/fonts.txt
 	
