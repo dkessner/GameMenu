@@ -143,6 +143,8 @@ all: \
     bin/2024-25/Out_Of_This_World_TerinLee/info.txt \
     bin/2024-25/Raining_Tacos_Sadie_Stiehm/Raining_Tacos_Sadie_Stiehm.done \
     bin/2024-25/Raining_Tacos_Sadie_Stiehm/info.txt \
+    bin/2024-25/Starships_Kira_Chang/Starships_Kira_Chang.done \
+    bin/2024-25/Starships_Kira_Chang/info.txt \
     bin/images \
     bin/fonts.txt
 	
