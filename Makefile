@@ -129,6 +129,8 @@ all: \
     bin/2024-25/TessaProject/info.txt \
     bin/2024-25/Casino__Arabella_Hodges/Casino__Arabella_Hodges.done \
     bin/2024-25/Casino__Arabella_Hodges/info.txt \
+    bin/2024-25/Catching_Candy__Jiya_Murell/Catching_Candy__Jiya_Murell.done \
+    bin/2024-25/Catching_Candy__Jiya_Murell/info.txt \
     bin/images \
     bin/fonts.txt
 	
