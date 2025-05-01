@@ -139,6 +139,8 @@ all: \
     bin/2024-25/Jet_Fighter___Adison_Lee/info.txt \
     bin/2024-25/Mustang_Jump_Alexis_Skillings/Mustang_Jump_Alexis_Skillings.done \
     bin/2024-25/Mustang_Jump_Alexis_Skillings/info.txt \
+    bin/2024-25/Out_Of_This_World_TerinLee/Out_Of_This_World_TerinLee.done \
+    bin/2024-25/Out_Of_This_World_TerinLee/info.txt \
     bin/images \
     bin/fonts.txt
 	
