@@ -147,6 +147,8 @@ all: \
     bin/2024-25/Starships_Kira_Chang/info.txt \
     bin/2024-25/Summit_Audrey_Nishida/Summit_Audrey_Nishida.done \
     bin/2024-25/Summit_Audrey_Nishida/info.txt \
+    bin/2024-25/Zombie_Zap_SarahKim/Zombie_Zap_SarahKim.done \
+    bin/2024-25/Zombie_Zap_SarahKim/info.txt \
     bin/images \
     bin/fonts.txt
 	
