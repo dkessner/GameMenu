@@ -137,6 +137,8 @@ all: \
     bin/2024-25/IceCream_ElissaLiu/info.txt \
     bin/2024-25/Jet_Fighter___Adison_Lee/Jet_Fighter___Adison_Lee.done \
     bin/2024-25/Jet_Fighter___Adison_Lee/info.txt \
+    bin/2024-25/Mustang_Jump_Alexis_Skillings/Mustang_Jump_Alexis_Skillings.done \
+    bin/2024-25/Mustang_Jump_Alexis_Skillings/info.txt \
     bin/images \
     bin/fonts.txt
 	
