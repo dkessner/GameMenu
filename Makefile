@@ -133,6 +133,8 @@ all: \
     bin/2024-25/Catching_Candy__Jiya_Murell/info.txt \
     bin/2024-25/GolfGuy_AllyKoh/GolfGuy_AllyKoh.done \
     bin/2024-25/GolfGuy_AllyKoh/info.txt \
+    bin/2024-25/IceCream_ElissaLiu/IceCream_ElissaLiu.done \
+    bin/2024-25/IceCream_ElissaLiu/info.txt \
     bin/images \
     bin/fonts.txt
 	
