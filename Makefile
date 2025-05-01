@@ -135,6 +135,8 @@ all: \
     bin/2024-25/GolfGuy_AllyKoh/info.txt \
     bin/2024-25/IceCream_ElissaLiu/IceCream_ElissaLiu.done \
     bin/2024-25/IceCream_ElissaLiu/info.txt \
+    bin/2024-25/Jet_Fighter___Adison_Lee/Jet_Fighter___Adison_Lee.done \
+    bin/2024-25/Jet_Fighter___Adison_Lee/info.txt \
     bin/images \
     bin/fonts.txt
 	
