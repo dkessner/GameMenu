@@ -12,6 +12,8 @@ String gameState = "START";
 String next = "NO";
 //This int will allow for a count of days
 int days = 1;
+//This int will count the score
+int score;
 //This String will be for the text
 String name = "CHERRY ON TOP";
 String instruction = "RED BUTTON TO START!";
@@ -21,6 +23,9 @@ String flavor = "Vanilla";
 String scoops = "One";
 String toppings = "Cherry";
 String order = "Press a blue button to complete order";
+String scoree = "Score = " + score;
+String gameOver = "GAME OVER!";
+String replay = "Press a red button to play again!";
 //My sounds
 SoundFile intro;
 SoundFile music;
@@ -38,6 +43,7 @@ PImage flavorc;
 PImage splatc;
 PImage toppingc;
 PImage toppingco;
+PImage flavors;
 //Variables
 float cx, cy, sx, sy;
 //Font
@@ -50,6 +56,7 @@ Gif gif;
 void setup() {
   //Here I set my screen size
   fullScreen();
+  score = 0;
   //Then I load all of my images
   background = loadImage("bg.jpg");
   background.resize(width, height);
@@ -72,9 +79,11 @@ void setup() {
   splatc = loadImage("splatc.png");
   splatc.resize(width/4, height/5);
   toppingc = loadImage("toppingc.png");
-  toppingc.resize(width/10,height/8);
+  toppingc.resize(width/10, height/8);
   toppingco = loadImage("toppingco.png");
-  toppingco.resize(width/8,height/8);
+  toppingco.resize(width/8, height/8);
+  flavors = loadImage("flavors.png");
+  flavors.resize(width/9, height/9);
   //Here I load my gif
   gif = new Gif(this, "sign.gif");
   gif.loop();
@@ -93,6 +102,10 @@ void setup() {
   textFont(title);
   //gameState = Start
   gameState = "START";
+  //Here I'm setting the scoop y's
+  vanillay = 0 - flavorv.height;
+  chocolatey = 0 - flavorc.height;
+  strawberryy = 0 - flavors.height;
 }
 
 void draw() {
@@ -137,17 +150,17 @@ void drawStart() {
     next = "NO";
     //This will count the days
     days = 1;
+    //Here I'm setting the starting score
+    score = 0;
+    //This resets the velocity
+    vy = 3.5;
   }
 }
 
 void keyPressed() {
   //All of these will allow for the transition from the start screen to the end screen
   if (gameState == "START") {
-    if (key == '1') {
-      gameState = "ORDER";
-    } else if (key == '2') {
-      gameState = "ORDER";
-    } else if (key == '3') {
+    if (keyCode == ENTER) {
       gameState = "ORDER";
     }
   }
@@ -173,6 +186,15 @@ void keyPressed() {
       vx = 6;
     }
   }
+  if (gameState == "END") {
+    if (key == '1') {
+      gameState = "START";
+    } else if (key == '2') {
+      gameState = "START";
+    } else if (key == '3') {
+      gameState = "START";
+    }
+  }
 }
 
 void keyReleased() {
@@ -189,24 +211,27 @@ void drawOrder() {
   //First, I'll load the background
   imageMode(CORNER);
   image(gameBackground, 0, 0);
-  if (days == 1) {
-    //This displays the number of days
-    textSize(20);
-    fill(#FFFFFF);
-    text(day, width/11, height/11);
-    //Now I will show a customer
-    imageMode(CENTER);
-    image(customer, width/2, height/2 + height/10);
-    //This displays the countertop
-    imageMode(CENTER);
-    image(counter, width/2, height/2 + height/2.5);
-    //This will display the order
-    textAlign(CENTER);
-    text("Flavor: " + flavor, width/2, height/2 + height/4);
-    text("Scoops: " + scoops, width/2, height/2 + height/3);
-    text("Toppings: " + toppings, width/2, height/2 + height/2.5);
-    text(order, width/2 + width/5, height/2 + height/10);
-  }
+  //This displays the number of days
+  textSize(20);
+  fill(#FFFFFF);
+  text("DAY: " + days, width/11, height/11);
+  //This displays the score
+  text("SCORE: " + score, width/12, height/8);
+  //Now I will show a customer
+  imageMode(CENTER);
+  image(customer, width/2, height/2 + height/10);
+  //This displays the countertop
+  imageMode(CENTER);
+  image(counter, width/2, height/2 + height/2.5);
+  //This will display the order
+  textAlign(CENTER);
+  text("Flavor: " + flavor, width/2, height/2 + height/4);
+  text("Scoops: " + scoops, width/2, height/2 + height/3);
+  text("Toppings: " + toppings, width/2, height/2 + height/2.5);
+  text(order, width/2 + width/5, height/2 + height/10);
+  vanillay = 0 - flavorv.height;
+  chocolatey = 0 - flavorc.height;
+  strawberryy = 0 - flavors.height;
 }
 
 void drawGame() {
@@ -216,4 +241,12 @@ void drawGame() {
 }
 
 void drawEnd() {
+  textSize(60);
+  textAlign(CENTER);
+  text(gameOver, width/2, height/2);
+  textSize(30);
+  text(replay, width/2, height/2 + height/10);
+  vanillay = 0 - flavorv.height;
+  chocolatey = 0 - flavorc.height;
+  strawberryy = 0 - flavors.height;
 }
