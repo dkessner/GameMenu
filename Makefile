@@ -131,6 +131,8 @@ all: \
     bin/2024-25/Casino__Arabella_Hodges/info.txt \
     bin/2024-25/Catching_Candy__Jiya_Murell/Catching_Candy__Jiya_Murell.done \
     bin/2024-25/Catching_Candy__Jiya_Murell/info.txt \
+    bin/2024-25/GolfGuy_AllyKoh/GolfGuy_AllyKoh.done \
+    bin/2024-25/GolfGuy_AllyKoh/info.txt \
     bin/images \
     bin/fonts.txt
 	
