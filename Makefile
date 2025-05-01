@@ -141,6 +141,8 @@ all: \
     bin/2024-25/Mustang_Jump_Alexis_Skillings/info.txt \
     bin/2024-25/Out_Of_This_World_TerinLee/Out_Of_This_World_TerinLee.done \
     bin/2024-25/Out_Of_This_World_TerinLee/info.txt \
+    bin/2024-25/Raining_Tacos_Sadie_Stiehm/Raining_Tacos_Sadie_Stiehm.done \
+    bin/2024-25/Raining_Tacos_Sadie_Stiehm/info.txt \
     bin/images \
     bin/fonts.txt
 	
