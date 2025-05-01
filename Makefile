@@ -127,6 +127,8 @@ all: \
     bin/2024-25/emma_draw_a_mustache/info.txt \
     bin/2024-25/TessaProject/TessaBlast.class \
     bin/2024-25/TessaProject/info.txt \
+    bin/2024-25/Casino__Arabella_Hodges/Casino__Arabella_Hodges.done \
+    bin/2024-25/Casino__Arabella_Hodges/info.txt \
     bin/images \
     bin/fonts.txt
 	
