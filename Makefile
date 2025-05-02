@@ -127,6 +127,8 @@ all: \
     bin/2024-25/emma_draw_a_mustache/info.txt \
     bin/2024-25/TessaProject/TessaBlast.class \
     bin/2024-25/TessaProject/info.txt \
+    bin/2024-25/jasmine_project/Project.class \
+    bin/2024-25/jasmine_project/info.txt \
     bin/2024-25/Casino__Arabella_Hodges/Casino__Arabella_Hodges.done \
     bin/2024-25/Casino__Arabella_Hodges/info.txt \
     bin/2024-25/Catching_Candy__Jiya_Murell/Catching_Candy__Jiya_Murell.done \

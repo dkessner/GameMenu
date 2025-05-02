@@ -7,6 +7,9 @@ emma_draw_a_mustache
 java TessaBlast
 2024-25/TessaProject
 
+java Project
+2024-25/jasmine_project
+
 Casino__Arabella_Hodges
 2024-25/Casino__Arabella_Hodges
 
